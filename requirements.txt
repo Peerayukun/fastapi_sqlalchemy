@@ -2,6 +2,6 @@ fastapi==0.129.0
 uvicorn==0.41.0
 python-dotenv==1.2.1
 SQLAlchemy==2.0.46
-mysqlclient==2.2.8
+psycopg[binary]==3.3.3
 alembic==1.18.4
-pydantic[email]
+pydantic[email]==2.12.5
